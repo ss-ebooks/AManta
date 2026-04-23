@@ -1,40 +1,53 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="th" data-lang="th">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>A-Manta — Technology in Harmony</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet" />
-<link href="css/style.css" rel="stylesheet" />
- 
+<link rel="stylesheet" href="./css/a-manta.css" />
 </head>
-<body>
+<body data-lang="th">
 
 <!-- NAV -->
 <nav id="nav">
-  <div class="nav-logo">A-Manta</div>
+  <div class="nav-left">
+    <img class="nav-logo-img" src="text236-0-2-6-7.png" alt="A-Manta" />
+  </div>
+
   <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#work">Work</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about"><span lang="th">เกี่ยวกับเรา</span><span lang="en">About</span></a></li>
+    <li><a href="#services"><span lang="th">บริการ</span><span lang="en">Services</span></a></li>
+    <li><a href="#work"><span lang="th">ผลงาน</span><span lang="en">Work</span></a></li>
+    <li><a href="#contact"><span lang="th">ติดต่อ</span><span lang="en">Contact</span></a></li>
   </ul>
+
+  <div class="nav-right">
+    <div class="lang-switch">
+      <button class="lang-btn active" data-lang="th">TH</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+  </div>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
   <div class="hero-text reveal">
-    <div class="hero-eyebrow">Calm Technology</div>
+    <div class="hero-eyebrow">
+      <span lang="th">เทคโนโลยีที่เรียบง่าย</span>
+      <span lang="en">Calm Technology</span>
+    </div>
     <h1 class="hero-title">
-      Technology<br>
-      that <em>moves</em><br>
-      with you.
+      <span lang="th">เทคโนโลยี<br>ที่ <em>เคลื่อนไหว</em><br>ไปกับคุณ</span>
+      <span lang="en">Technology<br>that <em>moves</em><br>with you.</span>
     </h1>
     <p class="hero-subtitle">
-      We design digital experiences that are quiet, intentional, and human — where technology steps back so you can step forward.
+      <span lang="th">เราออกแบบประสบการณ์ดิจิทัลที่เงียบสงบ ตั้งใจ และเป็นมนุษย์ — ที่ซึ่งเทคโนโลยีถอยออกไปเพื่อให้คุณก้าวไปข้างหน้า</span>
+      <span lang="en">We design digital experiences that are quiet, intentional, and human — where technology steps back so you can step forward.</span>
     </p>
     <a href="#work" class="hero-cta">
-      Explore our work
+      <span lang="th">ดูผลงานของเรา</span>
+      <span lang="en">Explore our work</span>
       <span class="hero-cta-arrow">→</span>
     </a>
   </div>
@@ -42,7 +55,7 @@
   <div class="hero-visual">
     <div class="manta-wrap">
       <div class="manta-glow"></div>
-      <img class="manta-img" src="images/ray_path.png" alt="Manta Ray illustration" />
+      <img class="manta-img" src="./images/ray_path.png" alt="Manta Ray illustration" />
       <span class="manta-label">A-Manta Studio</span>
     </div>
   </div>
@@ -51,20 +64,27 @@
 <!-- MANIFESTO -->
 <section class="manifesto" id="about">
   <div class="manifesto-left reveal">
-    <div class="section-tag">Our Philosophy</div>
+    <div class="section-tag">
+      <span lang="th">ปรัชญาของเรา</span>
+      <span lang="en">Our Philosophy</span>
+    </div>
     <h2 class="manifesto-title">
-      Less noise.<br>More presence.
+      <span lang="th">เสียงรบกวนน้อยลง<br>ความสดใสมากขึ้น</span>
+      <span lang="en">Less noise.<br>More presence.</span>
     </h2>
   </div>
   <div class="manifesto-body reveal">
     <p>
-      The best technology is the kind you don't think about. It works, it waits, and it gets out of the way. At <strong>A-Manta</strong>, we build products shaped by this belief — where every interaction feels natural, every interface feels inevitable.
+      <span lang="th">เทคโนโลยีที่ดีที่สุดคือสิ่งที่คุณไม่ต้องคิดถึง มันทำงาน รอคอย และหลีกทางให้ ที่ <strong>A-Manta</strong> เราสร้างผลิตภัณฑ์ที่ยึดมั่นในความเชื่อนี้ — ที่ทุกปฏิสัมพันธ์รู้สึกเป็นธรรมชาติ ทุก interface รู้สึกหลีกเลี่ยงไม่ได้</span>
+      <span lang="en">The best technology is the kind you don't think about. It works, it waits, and it gets out of the way. At <strong>A-Manta</strong>, we build products shaped by this belief — where every interaction feels natural, every interface feels inevitable.</span>
     </p>
     <p>
-      Inspired by the manta ray — graceful, effortless, at home in its environment — we bring that same quality to the digital spaces we create. Nothing forced. Nothing superfluous. Just clarity.
+      <span lang="th">ได้รับแรงบันดาลใจจากปลากระเบนราหู — สง่างาม ไร้แรงกดดัน อยู่ในสภาพแวดล้อมของตนอย่างลงตัว — เรานำคุณภาพเดียวกันนั้นมาสู่พื้นที่ดิจิทัลที่เราสร้าง ไม่มีอะไรที่ถูกบังคับ ไม่มีอะไรที่ฟุ่มเฟือย มีแต่ความชัดเจน</span>
+      <span lang="en">Inspired by the manta ray — graceful, effortless, at home in its environment — we bring that same quality to the digital spaces we create. Nothing forced. Nothing superfluous. Just clarity.</span>
     </p>
     <p>
-      We work with founders, brands, and teams who believe that <strong>simplicity is not a lack of ambition</strong>, but its truest expression.
+      <span lang="th">เราทำงานร่วมกับผู้ก่อตั้ง แบรนด์ และทีมที่เชื่อว่า <strong>ความเรียบง่ายไม่ใช่การขาดความทะเยอทะยาน</strong> แต่คือการแสดงออกที่แท้จริงที่สุด</span>
+      <span lang="en">We work with founders, brands, and teams who believe that <strong>simplicity is not a lack of ambition</strong>, but its truest expression.</span>
     </p>
   </div>
 </section>
@@ -72,91 +92,107 @@
 <!-- FEATURES -->
 <section class="features" id="services">
   <div class="features-header reveal">
-    <h2 class="features-title">What we bring to your project</h2>
-    <p class="features-desc">A focused set of capabilities, applied with depth rather than breadth.</p>
+    <h2 class="features-title">
+      <span lang="th">สิ่งที่เรามอบให้กับโปรเจกต์ของคุณ</span>
+      <span lang="en">What we bring to your project</span>
+    </h2>
+    <p class="features-desc">
+      <span lang="th">ชุดความสามารถที่เน้นจุดเด่น นำไปใช้อย่างลึกซึ้งมากกว่าจะกว้างขวาง</span>
+      <span lang="en">A focused set of capabilities, applied with depth rather than breadth.</span>
+    </p>
   </div>
   <div class="features-grid">
+
     <div class="feature-card reveal">
       <div class="feature-num">01</div>
-      <svg class="feature-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="2" y="2" width="24" height="24" rx="2" stroke="#8aac8b" stroke-width="1"/>
-        <line x1="2" y1="9" x2="26" y2="9" stroke="#8aac8b" stroke-width="1"/>
-        <circle cx="5.5" cy="5.5" r="1.5" fill="#8aac8b"/>
-        <circle cx="9.5" cy="5.5" r="1.5" fill="#8aac8b"/>
-      </svg>
-      <div class="feature-name">Interface Design</div>
-      <p class="feature-text">Screens that communicate clearly. Layouts that guide without directing. Design that earns trust through restraint.</p>
+      <svg class="feature-icon" viewBox="0 0 28 28" fill="none"><rect x="2" y="2" width="24" height="24" rx="2" stroke="#5ab4d6" stroke-width="1"/><line x1="2" y1="9" x2="26" y2="9" stroke="#5ab4d6" stroke-width="1"/><circle cx="5.5" cy="5.5" r="1.5" fill="#5ab4d6"/><circle cx="9.5" cy="5.5" r="1.5" fill="#5ab4d6"/></svg>
+      <div class="feature-name"><span lang="th">ออกแบบ Interface</span><span lang="en">Interface Design</span></div>
+      <p class="feature-text">
+        <span lang="th">หน้าจอที่สื่อสารได้ชัดเจน Layout ที่นำทางโดยไม่ต้องสั่ง การออกแบบที่สร้างความเชื่อมั่นผ่านความยับยั้งชั่งใจ</span>
+        <span lang="en">Screens that communicate clearly. Layouts that guide without directing. Design that earns trust through restraint.</span>
+      </p>
     </div>
+
     <div class="feature-card reveal">
       <div class="feature-num">02</div>
-      <svg class="feature-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M4 20 Q14 4 24 20" stroke="#8aac8b" stroke-width="1" fill="none"/>
-        <circle cx="14" cy="10" r="3" stroke="#8aac8b" stroke-width="1"/>
-      </svg>
-      <div class="feature-name">Motion & Experience</div>
-      <p class="feature-text">Movement with purpose. Transitions that orient, not distract. Animation as language, not decoration.</p>
+      <svg class="feature-icon" viewBox="0 0 28 28" fill="none"><path d="M4 20 Q14 4 24 20" stroke="#5ab4d6" stroke-width="1" fill="none"/><circle cx="14" cy="10" r="3" stroke="#5ab4d6" stroke-width="1"/></svg>
+      <div class="feature-name"><span lang="th">Motion & ประสบการณ์</span><span lang="en">Motion & Experience</span></div>
+      <p class="feature-text">
+        <span lang="th">การเคลื่อนไหวที่มีจุดประสงค์ Transition ที่ช่วยให้เข้าใจ ไม่รบกวน Animation ในฐานะภาษา ไม่ใช่การตกแต่ง</span>
+        <span lang="en">Movement with purpose. Transitions that orient, not distract. Animation as language, not decoration.</span>
+      </p>
     </div>
+
     <div class="feature-card reveal">
       <div class="feature-num">03</div>
-      <svg class="feature-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="14" cy="14" r="11" stroke="#8aac8b" stroke-width="1"/>
-        <circle cx="14" cy="14" r="5" stroke="#8aac8b" stroke-width="1"/>
-        <line x1="14" y1="3" x2="14" y2="9" stroke="#8aac8b" stroke-width="1"/>
-        <line x1="14" y1="19" x2="14" y2="25" stroke="#8aac8b" stroke-width="1"/>
-      </svg>
-      <div class="feature-name">Brand Systems</div>
-      <p class="feature-text">Identities built to last. Visual languages that stay coherent at any scale, in any medium.</p>
+      <svg class="feature-icon" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="11" stroke="#5ab4d6" stroke-width="1"/><circle cx="14" cy="14" r="5" stroke="#5ab4d6" stroke-width="1"/><line x1="14" y1="3" x2="14" y2="9" stroke="#5ab4d6" stroke-width="1"/><line x1="14" y1="19" x2="14" y2="25" stroke="#5ab4d6" stroke-width="1"/></svg>
+      <div class="feature-name"><span lang="th">ระบบ Brand</span><span lang="en">Brand Systems</span></div>
+      <p class="feature-text">
+        <span lang="th">อัตลักษณ์ที่สร้างเพื่อยืนยาว ภาษาภาพที่คงความสอดคล้องในทุกขนาด ทุกสื่อ</span>
+        <span lang="en">Identities built to last. Visual languages that stay coherent at any scale, in any medium.</span>
+      </p>
     </div>
+
     <div class="feature-card reveal">
       <div class="feature-num">04</div>
-      <svg class="feature-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <polyline points="4,22 10,12 16,17 22,6" stroke="#8aac8b" stroke-width="1" fill="none"/>
-        <circle cx="22" cy="6" r="2" fill="#8aac8b"/>
-      </svg>
-      <div class="feature-name">Product Strategy</div>
-      <p class="feature-text">Direction before delivery. We help teams align around what matters — and have the confidence to cut the rest.</p>
+      <svg class="feature-icon" viewBox="0 0 28 28" fill="none"><polyline points="4,22 10,12 16,17 22,6" stroke="#5ab4d6" stroke-width="1" fill="none"/><circle cx="22" cy="6" r="2" fill="#5ab4d6"/></svg>
+      <div class="feature-name"><span lang="th">กลยุทธ์ Product</span><span lang="en">Product Strategy</span></div>
+      <p class="feature-text">
+        <span lang="th">ทิศทางก่อนการส่งมอบ เราช่วยทีมให้สอดคล้องกับสิ่งที่สำคัญ และมีความมั่นใจที่จะตัดสิ่งที่เหลือ</span>
+        <span lang="en">Direction before delivery. We help teams align around what matters — and have the confidence to cut the rest.</span>
+      </p>
     </div>
+
     <div class="feature-card reveal">
       <div class="feature-num">05</div>
-      <svg class="feature-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="8" y="2" width="12" height="16" rx="1" stroke="#8aac8b" stroke-width="1"/>
-        <rect x="4" y="10" width="12" height="16" rx="1" stroke="#8aac8b" stroke-width="1"/>
-      </svg>
-      <div class="feature-name">Web Development</div>
-      <p class="feature-text">Fast, accessible, and maintainable. Code that performs as well as it looks — built for real-world use.</p>
+      <svg class="feature-icon" viewBox="0 0 28 28" fill="none"><rect x="8" y="2" width="12" height="16" rx="1" stroke="#5ab4d6" stroke-width="1"/><rect x="4" y="10" width="12" height="16" rx="1" stroke="#5ab4d6" stroke-width="1"/></svg>
+      <div class="feature-name"><span lang="th">พัฒนาเว็บไซต์</span><span lang="en">Web Development</span></div>
+      <p class="feature-text">
+        <span lang="th">รวดเร็ว เข้าถึงได้ง่าย และบำรุงรักษาได้ Code ที่ทำงานได้ดีพอๆ กับที่มันดูดี — สร้างมาเพื่อการใช้งานจริง</span>
+        <span lang="en">Fast, accessible, and maintainable. Code that performs as well as it looks — built for real-world use.</span>
+      </p>
     </div>
+
     <div class="feature-card reveal">
       <div class="feature-num">06</div>
-      <svg class="feature-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M14 3 L25 9 L25 19 L14 25 L3 19 L3 9 Z" stroke="#8aac8b" stroke-width="1" fill="none"/>
-        <circle cx="14" cy="14" r="3" stroke="#8aac8b" stroke-width="1"/>
-      </svg>
-      <div class="feature-name">Design Consulting</div>
-      <p class="feature-text">A second pair of eyes on your most important decisions. Honest, experienced, and free from agenda.</p>
+      <svg class="feature-icon" viewBox="0 0 28 28" fill="none"><path d="M14 3 L25 9 L25 19 L14 25 L3 19 L3 9 Z" stroke="#5ab4d6" stroke-width="1" fill="none"/><circle cx="14" cy="14" r="3" stroke="#5ab4d6" stroke-width="1"/></svg>
+      <div class="feature-name"><span lang="th">ที่ปรึกษาด้านการออกแบบ</span><span lang="en">Design Consulting</span></div>
+      <p class="feature-text">
+        <span lang="th">สายตาคู่ที่สองสำหรับการตัดสินใจที่สำคัญที่สุด ตรงไปตรงมา มีประสบการณ์ และปราศจากวาระซ่อนเร้น</span>
+        <span lang="en">A second pair of eyes on your most important decisions. Honest, experienced, and free from agenda.</span>
+      </p>
     </div>
+
   </div>
 </section>
 
 <!-- SHOWCASE -->
 <section class="showcase" id="work">
   <div class="showcase-content reveal">
-    <div class="section-tag">Selected Work</div>
-    <h2 class="showcase-title">Depth beneath every surface.</h2>
+    <div class="section-tag">
+      <span lang="th">ผลงานที่เลือกสรร</span>
+      <span lang="en">Selected Work</span>
+    </div>
+    <h2 class="showcase-title">
+      <span lang="th">ความลึกซึ้งอยู่ใต้ทุกพื้นผิว</span>
+      <span lang="en">Depth beneath every surface.</span>
+    </h2>
     <p class="showcase-body">
-      From fintech dashboards to artisan e-commerce, our work lives across industries — united by a commitment to clarity, craft, and the user at the centre of every decision.
+      <span lang="th">จาก dashboard FinTech ถึง e-commerce งานฝีมือ งานของเราอยู่ในหลากหลายอุตสาหกรรม — รวมกันด้วยความมุ่งมั่นต่อความชัดเจน งานฝีมือ และผู้ใช้ที่อยู่ศูนย์กลางของทุกการตัดสินใจ</span>
+      <span lang="en">From fintech dashboards to artisan e-commerce, our work lives across industries — united by a commitment to clarity, craft, and the user at the centre of every decision.</span>
     </p>
     <div class="stat-row">
       <div class="stat">
         <div class="stat-num">48+</div>
-        <div class="stat-label">Projects delivered</div>
+        <div class="stat-label"><span lang="th">โปรเจกต์ที่ส่งมอบ</span><span lang="en">Projects delivered</span></div>
       </div>
       <div class="stat">
         <div class="stat-num">12</div>
-        <div class="stat-label">Industries served</div>
+        <div class="stat-label"><span lang="th">อุตสาหกรรมที่ให้บริการ</span><span lang="en">Industries served</span></div>
       </div>
       <div class="stat">
         <div class="stat-num">97%</div>
-        <div class="stat-label">Client satisfaction</div>
+        <div class="stat-label"><span lang="th">ความพึงพอใจของลูกค้า</span><span lang="en">Client satisfaction</span></div>
       </div>
     </div>
   </div>
@@ -170,7 +206,8 @@
 <section class="quote-section">
   <span class="quote-mark reveal">"</span>
   <p class="quote-text reveal">
-    Calm technology doesn't shout for attention. It earns presence through usefulness, and disappears when it isn't needed.
+    <span lang="th">เทคโนโลยีที่เรียบง่ายไม่ร้องหาความสนใจ มันได้รับการยอมรับผ่านประโยชน์ใช้สอย และหายไปเมื่อไม่ต้องการ</span>
+    <span lang="en">Calm technology doesn't shout for attention. It earns presence through usefulness, and disappears when it isn't needed.</span>
   </p>
   <p class="quote-author reveal">— Mark Weiser, Ubiquitous Computing</p>
 </section>
@@ -178,34 +215,43 @@
 <!-- CTA -->
 <section class="cta-section" id="contact">
   <h2 class="cta-text-title reveal">
-    Ready to build something that feels right?
+    <span lang="th">พร้อมที่จะสร้างสิ่งที่ใช่แล้วหรือยัง?</span>
+    <span lang="en">Ready to build something that feels right?</span>
   </h2>
   <div class="cta-right reveal">
-    <a href="mailto:hello@a-manta.co" class="cta-btn">Start a conversation →</a>
-    <a href="#work" class="cta-btn-ghost">See case studies →</a>
+    <a href="mailto:hello@a-manta.co" class="cta-btn">
+      <span lang="th">เริ่มบทสนทนา →</span>
+      <span lang="en">Start a conversation →</span>
+    </a>
+    <a href="#work" class="cta-btn-ghost">
+      <span lang="th">ดู Case Studies →</span>
+      <span lang="en">See case studies →</span>
+    </a>
   </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-logo">A-Manta</div>
+  <img class="footer-logo-img" src="text236-0-2-6-7.png" alt="A-Manta" />
   <ul class="footer-links">
-    <li><a href="#">Privacy</a></li>
-    <li><a href="#">Terms</a></li>
+    <li><a href="#"><span lang="th">นโยบายความเป็นส่วนตัว</span><span lang="en">Privacy</span></a></li>
+    <li><a href="#"><span lang="th">เงื่อนไข</span><span lang="en">Terms</span></a></li>
     <li><a href="#">Instagram</a></li>
   </ul>
   <p class="footer-copy">© 2025 A-Manta Studio</p>
 </footer>
 
 <script>
+  /* Nav scroll */
   const nav = document.getElementById('nav');
   window.addEventListener('scroll', () => {
     nav.classList.toggle('scrolled', window.scrollY > 40);
   });
 
+  /* Scroll reveal */
   const reveals = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver((entries) => {
-    entries.forEach((e, i) => {
+    entries.forEach(e => {
       if (e.isIntersecting) {
         setTimeout(() => e.target.classList.add('visible'), 80);
         observer.unobserve(e.target);
@@ -213,7 +259,17 @@
     });
   }, { threshold: 0.12 });
   reveals.forEach(el => observer.observe(el));
+
+  /* Language switch */
+  const langBtns = document.querySelectorAll('.lang-btn');
+  langBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const lang = btn.dataset.lang;
+      document.body.dataset.lang = lang;
+      document.documentElement.lang = lang;
+      langBtns.forEach(b => b.classList.toggle('active', b.dataset.lang === lang));
+    });
+  });
 </script>
 </body>
 </html>
-
